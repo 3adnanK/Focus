@@ -58,6 +58,8 @@ input[type='range']::-webkit-slider-thumb {
 
 .sound_btn {
   cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.4s;
 }
 
 .volume {

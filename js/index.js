@@ -73,7 +73,15 @@ $('.volume').change(function() {
 });
 
 $('.sound_btn').click(function() {
-  switch ($(this).attr("id")) {
+  let elem = $(this);
+
+  if (elem.css("opacity") < 1.0) {
+    elem.css("opacity", 1.0);
+  } else {
+    elem.css("opacity", 0.4);
+  }
+
+  switch (elem.attr("id")) {
     case "birds":
 
       if(birds.paused) {

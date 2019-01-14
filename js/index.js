@@ -21,27 +21,27 @@ setInterval(function() {
   })
 }, 10000);
 
-let fire = new Audio(audiSrc[0]);
+let fire = new Audio(audioSrc[0]);
 fire.loop = true;
 fire.preload = "auto";
 
-let birds = new Audio(audiSrc[1]);
+let birds = new Audio(audioSrc[1]);
 birds.loop = true;
 birds.preload = "auto";
 
-let waves = new Audio(audiSrc[2]);
+let waves = new Audio(audioSrc[2]);
 waves.loop = true;
 waves.preload = "auto";
 
-let raine = new Audio(audiSrc[3]);
+let raine = new Audio(audioSrc[3]);
 raine.loop = true;
 raine.preload = "auto";
 
-let thunder = new Audio(audiSrc[4]);
+let thunder = new Audio(audioSrc[4]);
 thunder.loop = true;
 thunder.preload = "auto";
 
-let night = new Audio(audiSrc[5]);
+let night = new Audio(audioSrc[5]);
 night.loop = true;
 night.preload = "auto";
 

@@ -2,7 +2,7 @@ var audioSrc = [
 "sounds/fire.mp3",
 "sounds/birds.mp3",
 "sounds/ocean_waves.mp3",
-"sounds/raining.wav",
+"sounds/raining.mp3",
 "sounds/thunder.mp3",
 "sounds/night.mp3"
 ]
